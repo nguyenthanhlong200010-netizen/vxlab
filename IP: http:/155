@@ -1,0 +1,9 @@
+Sử dụng công cụ wpscan để quét LHBM cho mục tiêu
+ 
+Tìm thấy 1 file backup
+ 
+Kiểm tra file
+ 
+Thu được user và password. Đăng nhập vào dịch vụ ssh
+ 
+Đăng nhập thành công và thu được flag
