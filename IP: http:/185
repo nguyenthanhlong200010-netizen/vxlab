@@ -1,0 +1,23 @@
+
+Dò quét cổng mở
+ 
+Đăng nhập với tk admin/admin
+ 
+Dò quét đường dẫn ẩn 
+ 
+Tải xuống các tập tin thư mục và giải nén
+zin2join file > file.txt
+john --wordlist=/usr/share/wordlist/rockyou.txt file.txt
+Dolphins123
+ 
+Trích xuất thông tin người dùng -> tạo từ điển user
+ 
+Brute-force thành công user james.w với pass CpwhfXhqGdeXZlFN
+ 
+Tìm thấy 1 file data trong hệ thống -> lấy mật khẩu root
+/opt/script
+keepassxc file
+ 
+Sử dụng các mk đã thu thập để leo thang 
+su root
+ 
